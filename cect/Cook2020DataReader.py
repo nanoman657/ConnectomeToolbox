@@ -21,7 +21,7 @@ from cect import print_
 spreadsheet_location = os.path.dirname(os.path.abspath(__file__)) + "/data/"
 filename = "%scne24932-sup-0004-supinfo4.csv" % spreadsheet_location
 filename2 = "%scne24932-sup-0005-supinfo5.csv" % spreadsheet_location
-# test change
+
 
 READER_DESCRIPTION = (
     """Data extracted from %s and %s for connectivity of pharyngeal neurons, muscles and other cells"""
