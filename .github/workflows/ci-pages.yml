@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - feature/pytest
+      - fix/title-side
 permissions:
   contents: write
 jobs:
