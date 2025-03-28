@@ -65,6 +65,42 @@ class TestCheckCells:
             muscle_cells == muscle_cells_expected
         ), "Input muscle cells are not all grouped together"
 
+    @pytest.mark.parametrize(
+        "cells_input,preferred_cells_expected,error_msg",
+        [
+            (
+                    ("MDL01",),
+                    [
+                        "MDL01",
+                    ],
+                    "Single muscle cell was not grouped with muscle cell group.",
+            ),
+            (
+                    ("MDL01", "MDR01"),
+                    ["MDL01", "MDR01"],
+                    "Both muscles cells were not grouped with muscle cell group.",
+            ),
+        ],
+    )
+    def test_should_group_muscle_cells(
+            self, cells_input: tuple, preferred_cells_expected: list, error_msg: str
+    ):
+        cells_processed = check_cells(cells_input)
+        in_preferred_output = cells_processed[0]
+        not_in_preferred_output = cells_processed[1]
+        missing_preferred_output = cells_processed[2]
+        muscle_cells = cells_processed[3]
+
+        assert not in_preferred_output, "Cells included unexpectedly in 'in_preferred'"
+        assert (
+                missing_preferred_output == PREFERRED_HERM_NEURON_NAMES
+        ), "Not all preferred herm neuron names missing"
+        assert (
+            not not_in_preferred_output
+        ), "Cells included unexpectedly in 'not_in_preferred'"
+        assert (
+                muscle_cells == []
+        ), "Input muscle cells are not all grouped together"
 
 if __name__ == "__main__":
     unittest.main()
