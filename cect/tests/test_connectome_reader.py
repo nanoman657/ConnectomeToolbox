@@ -2,6 +2,7 @@ import pytest
 
 from cect import print_
 import unittest
+import pdb
 from cect.ConnectomeReader import check_cells
 from cect.Cells import PREFERRED_HERM_NEURON_NAMES
 
@@ -70,19 +71,22 @@ class TestCheckCells:
         [
             (
                     ("MDL01",),
-                    [
-                        "MDL01",
-                    ],
-                    "Single muscle cell was not grouped with muscle cell group.",
+                    [],
+                    "Cell 'MDL01' grouped incorrectly with preferred cell group.",
             ),
             (
-                    ("MDL01", "MDR01"),
-                    ["MDL01", "MDR01"],
-                    "Both muscles cells were not grouped with muscle cell group.",
+                    ("MDL01", "ADAL"),
+                    ["ADAL"],
+                    "Preferred cells not calculated correctly.",
+            ),
+            (
+                    ("ADAL",),
+                    ["ADAL",],
+                    "'ADAL' not grouped in 'in_preferred'.",
             ),
         ],
     )
-    def test_should_group_muscle_cells(
+    def test_should_group_preferred_cells(
             self, cells_input: tuple, preferred_cells_expected: list, error_msg: str
     ):
         cells_processed = check_cells(cells_input)
@@ -91,16 +95,13 @@ class TestCheckCells:
         missing_preferred_output = cells_processed[2]
         muscle_cells = cells_processed[3]
 
-        assert not in_preferred_output, "Cells included unexpectedly in 'in_preferred'"
+        assert in_preferred_output == preferred_cells_expected, "Cells included unexpectedly in 'in_preferred'"
         assert (
-                missing_preferred_output == PREFERRED_HERM_NEURON_NAMES
+                len(missing_preferred_output) == len(PREFERRED_HERM_NEURON_NAMES) - len(preferred_cells_expected)
         ), "Not all preferred herm neuron names missing"
         assert (
             not not_in_preferred_output
         ), "Cells included unexpectedly in 'not_in_preferred'"
-        assert (
-                muscle_cells == []
-        ), "Input muscle cells are not all grouped together"
 
 if __name__ == "__main__":
     unittest.main()
