@@ -15,6 +15,7 @@ from cect.Cells import is_potential_muscle
 from cect.Cells import is_known_muscle
 from cect.Cells import remove_leading_index_zero
 
+from cect.ConnectomeDataset import LOAD_READERS_FROM_CACHE_BY_DEFAULT
 from cect.ConnectomeDataset import ConnectomeDataset
 
 import os
@@ -113,6 +114,10 @@ class WhiteDataReader(ConnectomeDataset):
                         other_cells.add(p)
 
         return list(neurons), list(muscles), list(other_cells), conns
+
+def get_instance(from_cache: bool =LOAD_READERS_FROM_CACHE_BY_DEFAULT, **kwargs) -> WhiteDataReader:
+    instance = WhiteDataReader(kwargs['spreadsheet_location'])
+    return instance
 
 
 if __name__ == "__main__":
