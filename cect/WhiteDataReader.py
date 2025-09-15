@@ -7,23 +7,20 @@
 ############################################################
 
 
-from cect.ConnectomeReader import ConnectionInfo
-from cect.ConnectomeReader import analyse_connections
-from cect.Cells import convert_to_preferred_muscle_name
-from cect.Cells import is_herm_neuron
-from cect.Cells import is_potential_muscle
-from cect.Cells import is_known_muscle
-from cect.Cells import remove_leading_index_zero
-
-from cect.ConnectomeDataset import LOAD_READERS_FROM_CACHE_BY_DEFAULT
-from cect.ConnectomeDataset import ConnectomeDataset
-
 import os
 
 from cect import print_
-
-from cect.Cells import GENERIC_CHEM_SYN
-from cect.Cells import GENERIC_ELEC_SYN
+from cect.Cells import (
+    GENERIC_CHEM_SYN,
+    GENERIC_ELEC_SYN,
+    convert_to_preferred_muscle_name,
+    is_herm_neuron,
+    is_known_muscle,
+    is_potential_muscle,
+    remove_leading_index_zero,
+)
+from cect.ConnectomeDataset import LOAD_READERS_FROM_CACHE_BY_DEFAULT, ConnectomeDataset
+from cect.ConnectomeReader import ConnectionInfo, analyse_connections
 
 
 def get_syntype(syntype):
