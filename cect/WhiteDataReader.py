@@ -19,7 +19,12 @@ from cect.Cells import (
     is_potential_muscle,
     remove_leading_index_zero,
 )
-from cect.ConnectomeDataset import LOAD_READERS_FROM_CACHE_BY_DEFAULT, ConnectomeDataset
+from cect.ConnectomeDataset import (
+    LOAD_READERS_FROM_CACHE_BY_DEFAULT,
+    ConnectomeDataset,
+    get_cache_filename,
+    load_connectome_dataset_file,
+)
 from cect.ConnectomeReader import ConnectionInfo, analyse_connections
 
 
@@ -112,8 +117,15 @@ class WhiteDataReader(ConnectomeDataset):
 
         return list(neurons), list(muscles), list(other_cells), conns
 
-def get_instance(from_cache: bool =LOAD_READERS_FROM_CACHE_BY_DEFAULT, **kwargs) -> WhiteDataReader:
-    instance = WhiteDataReader(kwargs['spreadsheet_location'])
+def get_cache() -> ConnectomeDataset | None:
+    filename = get_cache_filename(__file__.split("/")[-1].split(".")[0])
+    file = load_connectome_dataset_file(filename)
+    output = file or None
+    return output
+
+def get_instance(from_cache: bool = LOAD_READERS_FROM_CACHE_BY_DEFAULT, **kwargs) -> ConnectomeDataset:
+    cache = get_cache() if from_cache else None
+    instance: ConnectomeDataset | None = cache or WhiteDataReader(kwargs['spreadsheet_location'])
     return instance
 
 
