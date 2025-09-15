@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - test-run-white
 permissions:
   contents: write
 jobs:
