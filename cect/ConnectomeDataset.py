@@ -891,7 +891,7 @@ class ConnectomeDataset:
     def to_plotly_hive_plot_fig(self, synclass, view):
         from hiveplotlib import hive_plot_n_axes
         from hiveplotlib.converters import networkx_to_nodes_edges
-        from hiveplotlib.node import split_nodes_on_variable
+        from hiveplotlib.node import split_nodes_on_variable, Node
         from hiveplotlib.viz.plotly import hive_plot_viz as plotly_hive_plot_viz
 
         print_("==============")
@@ -918,8 +918,16 @@ class ConnectomeDataset:
         if verbose:
             print_("%s" % nodes)
 
+        # Convert NodeCollection to list of Node objects for compatibility with hiveplotlib
+        node_list = []
+        for idx, row in nodes.data.iterrows():
+            data_dict = row.to_dict()
+            unique_id = data_dict.pop(nodes.unique_id_column)  # Remove unique_id to avoid duplication
+            node = Node(unique_id=unique_id, data=data_dict)
+            node_list.append(node)
+
         blocks_dict_unordered = split_nodes_on_variable(
-            nodes, variable_name="SIM_class"
+            node_list, variable_name="SIM_class"
         )
 
         if verbose:
@@ -954,7 +962,7 @@ class ConnectomeDataset:
         out_degrees = dict(G.out_degree)
 
         # add degree information to Node instances
-        for node in nodes:
+        for node in node_list:
             deg = degrees[node.unique_id]
             block = node.data["SIM_class"]
             node.add_data(data={"degree": deg})
@@ -967,7 +975,7 @@ class ConnectomeDataset:
         num_steps_for_edge_curves = 25
 
         hp = hive_plot_n_axes(
-            node_list=nodes,
+            node_list=node_list,
             edges=edges,
             axes_assignments=splits,
             sorting_variables=["degree"] * 3,
