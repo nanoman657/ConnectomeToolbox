@@ -5,6 +5,36 @@ import pprint
 
 
 class TestConnectomeDataset(unittest.TestCase):
+    def test_hive_plot_with_nodecollection(self):
+        """Test that to_plotly_hive_plot_fig handles NodeCollection correctly"""
+        from cect.TestDataReader import get_instance
+        from cect.ConnectomeView import RAW_VIEW
+
+        # Load a test dataset
+        print_("Testing hive plot generation with NodeCollection fix...")
+        test_dataset = get_instance(from_cache=False)
+
+        # Get a connectome view
+        view = RAW_VIEW
+        connectome_view = test_dataset.get_connectome_view(view)
+
+        # Get the first synclass from the view
+        synclass = list(view.synclass_sets.keys())[0]
+
+        # This should not raise TypeError: 'NodeCollection' object is not iterable
+        try:
+            fig = connectome_view.to_plotly_hive_plot_fig(synclass, view)
+            print_(
+                "✓ Successfully generated hive plot without NodeCollection iteration error"
+            )
+            # The fig could be None if there are no nodes after filtering
+            if fig is not None:
+                assert hasattr(fig, "data"), "Figure should have data attribute"
+        except TypeError as e:
+            if "NodeCollection" in str(e) and "not iterable" in str(e):
+                self.fail(f"NodeCollection iteration error not fixed: {e}")
+            raise
+
     def test_json(self):
         # from cect.Cook2019HermReader import get_instance
         import importlib

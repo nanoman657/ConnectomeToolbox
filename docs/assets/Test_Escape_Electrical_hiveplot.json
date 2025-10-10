@@ -8,7 +8,7 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
+      "name": "0",
       "showlegend": true,
       "type": "scatter",
       "x": [
@@ -36,7 +36,8 @@
         2.0661971159612635,
         2.1164697387515288,
         2.1586094051534808,
-        2.1926161151671195
+        2.1926161151671195,
+        null
       ],
       "y": [
         4.92403876506104,
@@ -63,7 +64,8 @@
         1.382567383534849,
         1.1899104754811543,
         0.9950703480006138,
-        0.7980470010932269
+        0.7980470010932269,
+        null
       ]
     },
     {
@@ -74,7 +76,7 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
+      "name": "0",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -102,7 +104,8 @@
         -3.492955147695066,
         -3.6064245067730294,
         -3.718846862739637,
-        -3.8302222155948895
+        -3.8302222155948895,
+        null
       ],
       "y": [
         4.92403876506104,
@@ -129,32 +132,13 @@
         3.4848247094245925,
         3.3963426183451784,
         3.3060470646812137,
-        3.2139380484326976
+        3.2139380484326976,
+        null
       ]
     },
     {
-      "customdata": [
-        [
-          "Group 1",
-          "Interneuron",
-          340.0,
-          "degree",
-          0,
-          3
-        ],
-        [
-          "Group 1",
-          "Interneuron",
-          340.0,
-          "degree",
-          0,
-          3
-        ]
-      ],
       "hoverinfo": "skip",
-      "hovertemplate": "<b>Axis: %{customdata[1]}</b><br>axis_id: %{customdata[0]}<br>angle: %{customdata[2]}<br>sorting_variable: %{customdata[3]}<br>vmin: %{customdata[4]}<br>vmax: %{customdata[5]}",
       "mode": "text",
-      "name": "",
       "showlegend": false,
       "text": "Interneuron",
       "textfont": {
@@ -171,28 +155,8 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "Group 1_repeat",
-          "Interneuron",
-          20.0,
-          "degree",
-          0,
-          3
-        ],
-        [
-          "Group 1_repeat",
-          "Interneuron",
-          20.0,
-          "degree",
-          0,
-          3
-        ]
-      ],
       "hoverinfo": "skip",
-      "hovertemplate": "<b>Axis: %{customdata[1]}</b><br>axis_id: %{customdata[0]}<br>angle: %{customdata[2]}<br>sorting_variable: %{customdata[3]}<br>vmin: %{customdata[4]}<br>vmax: %{customdata[5]}",
       "mode": "text",
-      "name": "",
       "showlegend": false,
       "text": "Interneuron",
       "textfont": {
@@ -209,28 +173,8 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "Group 2",
-          "Motorneuron",
-          100.0,
-          "degree",
-          0,
-          3
-        ],
-        [
-          "Group 2",
-          "Motorneuron",
-          100.0,
-          "degree",
-          0,
-          3
-        ]
-      ],
       "hoverinfo": "skip",
-      "hovertemplate": "<b>Axis: %{customdata[1]}</b><br>axis_id: %{customdata[0]}<br>angle: %{customdata[2]}<br>sorting_variable: %{customdata[3]}<br>vmin: %{customdata[4]}<br>vmax: %{customdata[5]}",
       "mode": "text",
-      "name": "",
       "showlegend": false,
       "text": "Motorneuron",
       "textfont": {
@@ -247,28 +191,8 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "Group 2_repeat",
-          "Motorneuron",
-          140.0,
-          "degree",
-          0,
-          3
-        ],
-        [
-          "Group 2_repeat",
-          "Motorneuron",
-          140.0,
-          "degree",
-          0,
-          3
-        ]
-      ],
       "hoverinfo": "skip",
-      "hovertemplate": "<b>Axis: %{customdata[1]}</b><br>axis_id: %{customdata[0]}<br>angle: %{customdata[2]}<br>sorting_variable: %{customdata[3]}<br>vmin: %{customdata[4]}<br>vmax: %{customdata[5]}",
       "mode": "text",
-      "name": "",
       "showlegend": false,
       "text": "Motorneuron",
       "textfont": {
@@ -285,28 +209,8 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "Group 3",
-          "Sensory",
-          220.0,
-          "degree",
-          0,
-          3
-        ],
-        [
-          "Group 3",
-          "Sensory",
-          220.0,
-          "degree",
-          0,
-          3
-        ]
-      ],
       "hoverinfo": "skip",
-      "hovertemplate": "<b>Axis: %{customdata[1]}</b><br>axis_id: %{customdata[0]}<br>angle: %{customdata[2]}<br>sorting_variable: %{customdata[3]}<br>vmin: %{customdata[4]}<br>vmax: %{customdata[5]}",
       "mode": "text",
-      "name": "",
       "showlegend": false,
       "text": "Sensory",
       "textfont": {
@@ -323,28 +227,8 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "Group 3_repeat",
-          "Sensory",
-          260.0,
-          "degree",
-          0,
-          3
-        ],
-        [
-          "Group 3_repeat",
-          "Sensory",
-          260.0,
-          "degree",
-          0,
-          3
-        ]
-      ],
       "hoverinfo": "skip",
-      "hovertemplate": "<b>Axis: %{customdata[1]}</b><br>axis_id: %{customdata[0]}<br>angle: %{customdata[2]}<br>sorting_variable: %{customdata[3]}<br>vmin: %{customdata[4]}<br>vmax: %{customdata[5]}",
       "mode": "text",
-      "name": "",
       "showlegend": false,
       "text": "Sensory",
       "textfont": {
@@ -367,7 +251,6 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -386,7 +269,6 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -405,7 +287,6 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -424,7 +305,6 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -443,7 +323,6 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -462,7 +341,6 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -475,33 +353,6 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "AVA",
-          "Interneuron",
-          0
-        ],
-        [
-          "AVB",
-          "Interneuron",
-          1
-        ],
-        [
-          "AVD",
-          "Interneuron",
-          0
-        ],
-        [
-          "PVC",
-          "Interneuron",
-          0
-        ],
-        [
-          "RIM",
-          "Interneuron",
-          0
-        ]
-      ],
       "hovertemplate": "%{text}<extra></extra>",
       "marker": {
         "color": [
@@ -515,7 +366,6 @@
         "size": 8
       },
       "mode": "markers",
-      "name": "",
       "showlegend": false,
       "text": [
         "AVA (in: 0, out: 0)<br>AVD (in: 0, out: 0)<br>PVC (in: 0, out: 0)<br>RIM (in: 0, out: 0)",
@@ -541,33 +391,6 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "AVA",
-          "Interneuron",
-          0
-        ],
-        [
-          "AVB",
-          "Interneuron",
-          1
-        ],
-        [
-          "AVD",
-          "Interneuron",
-          0
-        ],
-        [
-          "PVC",
-          "Interneuron",
-          0
-        ],
-        [
-          "RIM",
-          "Interneuron",
-          0
-        ]
-      ],
       "hovertemplate": "%{text}<extra></extra>",
       "marker": {
         "color": [
@@ -581,7 +404,6 @@
         "size": 8
       },
       "mode": "markers",
-      "name": "",
       "showlegend": false,
       "text": [
         "AVA (in: 0, out: 0)<br>AVD (in: 0, out: 0)<br>PVC (in: 0, out: 0)<br>RIM (in: 0, out: 0)",
@@ -607,28 +429,6 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "RMD",
-          "Motorneuron",
-          0
-        ],
-        [
-          "SMD",
-          "Motorneuron",
-          0
-        ],
-        [
-          "VA/DA",
-          "Motorneuron",
-          0
-        ],
-        [
-          "VB/DB",
-          "Motorneuron",
-          3
-        ]
-      ],
       "hovertemplate": "%{text}<extra></extra>",
       "marker": {
         "color": [
@@ -641,7 +441,6 @@
         "size": 8
       },
       "mode": "markers",
-      "name": "",
       "showlegend": false,
       "text": [
         "RMD (in: 0, out: 0)<br>SMD (in: 0, out: 0)<br>VA/DA (in: 0, out: 0)",
@@ -664,28 +463,6 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "RMD",
-          "Motorneuron",
-          0
-        ],
-        [
-          "SMD",
-          "Motorneuron",
-          0
-        ],
-        [
-          "VA/DA",
-          "Motorneuron",
-          0
-        ],
-        [
-          "VB/DB",
-          "Motorneuron",
-          3
-        ]
-      ],
       "hovertemplate": "%{text}<extra></extra>",
       "marker": {
         "color": [
@@ -698,7 +475,6 @@
         "size": 8
       },
       "mode": "markers",
-      "name": "",
       "showlegend": false,
       "text": [
         "RMD (in: 0, out: 0)<br>SMD (in: 0, out: 0)<br>VA/DA (in: 0, out: 0)",
@@ -721,28 +497,6 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "ALM",
-          "Sensory",
-          0
-        ],
-        [
-          "AVM",
-          "Sensory",
-          0
-        ],
-        [
-          "PLM",
-          "Sensory",
-          0
-        ],
-        [
-          "PVM",
-          "Sensory",
-          0
-        ]
-      ],
       "hovertemplate": "%{text}<extra></extra>",
       "marker": {
         "color": [
@@ -755,7 +509,6 @@
         "size": 8
       },
       "mode": "markers",
-      "name": "",
       "showlegend": false,
       "text": [
         "ALM (in: 0, out: 0)<br>AVM (in: 0, out: 0)<br>PLM (in: 0, out: 0)<br>PVM (in: 0, out: 0)",
@@ -778,28 +531,6 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "ALM",
-          "Sensory",
-          0
-        ],
-        [
-          "AVM",
-          "Sensory",
-          0
-        ],
-        [
-          "PLM",
-          "Sensory",
-          0
-        ],
-        [
-          "PVM",
-          "Sensory",
-          0
-        ]
-      ],
       "hovertemplate": "%{text}<extra></extra>",
       "marker": {
         "color": [
@@ -812,7 +543,6 @@
         "size": 8
       },
       "mode": "markers",
-      "name": "",
       "showlegend": false,
       "text": [
         "ALM (in: 0, out: 0)<br>AVM (in: 0, out: 0)<br>PLM (in: 0, out: 0)<br>PVM (in: 0, out: 0)",

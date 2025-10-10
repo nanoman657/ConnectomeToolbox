@@ -8,7 +8,7 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
+      "name": "0",
       "showlegend": true,
       "type": "scatter",
       "x": [
@@ -36,7 +36,34 @@
         2.959785340416334,
         3.121563289403647,
         3.2834813791143125,
-        3.4455396095483306
+        3.4455396095483306,
+        null,
+        -0.8682408883346515,
+        -0.6183805966194718,
+        -0.3746176473074849,
+        -0.13695204039869152,
+        0.09461622410690859,
+        0.32008714620931544,
+        0.5394607259085293,
+        0.7527369632045495,
+        0.9599158580973769,
+        1.160997410587011,
+        1.3559816206734514,
+        1.5448684883566992,
+        1.7276580136367534,
+        1.904350196513614,
+        2.0749450369872813,
+        2.2394425350577567,
+        2.397842690725038,
+        2.5501455039891257,
+        2.69635097485002,
+        2.8364591033077216,
+        2.9704698893622297,
+        3.098383333013545,
+        3.2201994342616667,
+        3.335918193106595,
+        3.4455396095483306,
+        null
       ],
       "y": [
         2.297884757028485,
@@ -63,49 +90,7 @@
         1.5643839187523967,
         1.4666562383955308,
         1.3632195517649939,
-        1.2540738588607852
-      ]
-    },
-    {
-      "hoverinfo": "skip",
-      "legendgroup": "0",
-      "line": {
-        "color": "rgba(153,102,204,0.5)",
-        "width": 1.5
-      },
-      "mode": "lines",
-      "name": "",
-      "showlegend": false,
-      "type": "scatter",
-      "x": [
-        null,
-        -0.8682408883346515,
-        -0.6183805966194718,
-        -0.3746176473074849,
-        -0.13695204039869152,
-        0.09461622410690859,
-        0.32008714620931544,
-        0.5394607259085293,
-        0.7527369632045495,
-        0.9599158580973769,
-        1.160997410587011,
-        1.3559816206734514,
-        1.5448684883566992,
-        1.7276580136367534,
-        1.904350196513614,
-        2.0749450369872813,
-        2.2394425350577567,
-        2.397842690725038,
-        2.5501455039891257,
-        2.69635097485002,
-        2.8364591033077216,
-        2.9704698893622297,
-        3.098383333013545,
-        3.2201994342616667,
-        3.335918193106595,
-        3.4455396095483306
-      ],
-      "y": [
+        1.2540738588607852,
         null,
         4.92403876506104,
         4.824129012263628,
@@ -131,7 +116,8 @@
         1.8580083178983664,
         1.6613060012592538,
         1.4599945149133935,
-        1.2540738588607852
+        1.2540738588607852,
+        null
       ]
     },
     {
@@ -142,7 +128,7 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
+      "name": "0",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -170,7 +156,34 @@
         -1.6300457355910307,
         -1.682998103160747,
         -1.7354618692784973,
-        -1.7874370339442816
+        -1.7874370339442816,
+        null,
+        -0.8682408883346515,
+        -1.003697312751086,
+        -1.1381067340561644,
+        -1.2714691522498875,
+        -1.4037845673322549,
+        -1.5350529793032663,
+        -1.6652743881629217,
+        -1.7944487939112217,
+        -1.9225761965481656,
+        -2.049656596073754,
+        -2.1756899924879867,
+        -2.300676385790864,
+        -2.4246157759823848,
+        -2.54750816306255,
+        -2.66935354703136,
+        -2.7901519278888136,
+        -2.909903305634912,
+        -3.028607680269654,
+        -3.1462650517930406,
+        -3.2628754202050714,
+        -3.3784387855057467,
+        -3.492955147695066,
+        -3.6064245067730294,
+        -3.718846862739637,
+        -3.8302222155948895,
+        null
       ],
       "y": [
         2.297884757028485,
@@ -197,49 +210,7 @@
         1.6262515310648096,
         1.584959888561083,
         1.5428219635178992,
-        1.4998377559352585
-      ]
-    },
-    {
-      "hoverinfo": "skip",
-      "legendgroup": "0",
-      "line": {
-        "color": "rgba(128,128,128,0.5)",
-        "width": 1.5
-      },
-      "mode": "lines",
-      "name": "",
-      "showlegend": false,
-      "type": "scatter",
-      "x": [
-        null,
-        -0.8682408883346515,
-        -1.003697312751086,
-        -1.1381067340561644,
-        -1.2714691522498875,
-        -1.4037845673322549,
-        -1.5350529793032663,
-        -1.6652743881629217,
-        -1.7944487939112217,
-        -1.9225761965481656,
-        -2.049656596073754,
-        -2.1756899924879867,
-        -2.300676385790864,
-        -2.4246157759823848,
-        -2.54750816306255,
-        -2.66935354703136,
-        -2.7901519278888136,
-        -2.909903305634912,
-        -3.028607680269654,
-        -3.1462650517930406,
-        -3.2628754202050714,
-        -3.3784387855057467,
-        -3.492955147695066,
-        -3.6064245067730294,
-        -3.718846862739637,
-        -3.8302222155948895
-      ],
-      "y": [
+        1.4998377559352585,
         null,
         4.92403876506104,
         4.873639388257195,
@@ -265,7 +236,8 @@
         3.4848247094245925,
         3.3963426183451784,
         3.3060470646812137,
-        3.2139380484326976
+        3.2139380484326976,
+        null
       ]
     },
     {
@@ -276,7 +248,7 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
+      "name": "0",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -304,7 +276,8 @@
         -0.5933522710499479,
         -0.5311164758928771,
         -0.4683920792838404,
-        -0.4051790812228374
+        -0.4051790812228374,
+        null
       ],
       "y": [
         -1.499837755935258,
@@ -331,32 +304,13 @@
         -2.2247867818847293,
         -2.2499990561387717,
         -2.274365047853357,
-        -2.297884757028485
+        -2.297884757028485,
+        null
       ]
     },
     {
-      "customdata": [
-        [
-          "Group 1",
-          "Interneuron",
-          340.0,
-          "degree",
-          0,
-          3
-        ],
-        [
-          "Group 1",
-          "Interneuron",
-          340.0,
-          "degree",
-          0,
-          3
-        ]
-      ],
       "hoverinfo": "skip",
-      "hovertemplate": "<b>Axis: %{customdata[1]}</b><br>axis_id: %{customdata[0]}<br>angle: %{customdata[2]}<br>sorting_variable: %{customdata[3]}<br>vmin: %{customdata[4]}<br>vmax: %{customdata[5]}",
       "mode": "text",
-      "name": "",
       "showlegend": false,
       "text": "Interneuron",
       "textfont": {
@@ -373,28 +327,8 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "Group 1_repeat",
-          "Interneuron",
-          20.0,
-          "degree",
-          0,
-          3
-        ],
-        [
-          "Group 1_repeat",
-          "Interneuron",
-          20.0,
-          "degree",
-          0,
-          3
-        ]
-      ],
       "hoverinfo": "skip",
-      "hovertemplate": "<b>Axis: %{customdata[1]}</b><br>axis_id: %{customdata[0]}<br>angle: %{customdata[2]}<br>sorting_variable: %{customdata[3]}<br>vmin: %{customdata[4]}<br>vmax: %{customdata[5]}",
       "mode": "text",
-      "name": "",
       "showlegend": false,
       "text": "Interneuron",
       "textfont": {
@@ -411,28 +345,8 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "Group 2",
-          "Motorneuron",
-          100.0,
-          "degree",
-          0,
-          3
-        ],
-        [
-          "Group 2",
-          "Motorneuron",
-          100.0,
-          "degree",
-          0,
-          3
-        ]
-      ],
       "hoverinfo": "skip",
-      "hovertemplate": "<b>Axis: %{customdata[1]}</b><br>axis_id: %{customdata[0]}<br>angle: %{customdata[2]}<br>sorting_variable: %{customdata[3]}<br>vmin: %{customdata[4]}<br>vmax: %{customdata[5]}",
       "mode": "text",
-      "name": "",
       "showlegend": false,
       "text": "Motorneuron",
       "textfont": {
@@ -449,28 +363,8 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "Group 2_repeat",
-          "Motorneuron",
-          140.0,
-          "degree",
-          0,
-          3
-        ],
-        [
-          "Group 2_repeat",
-          "Motorneuron",
-          140.0,
-          "degree",
-          0,
-          3
-        ]
-      ],
       "hoverinfo": "skip",
-      "hovertemplate": "<b>Axis: %{customdata[1]}</b><br>axis_id: %{customdata[0]}<br>angle: %{customdata[2]}<br>sorting_variable: %{customdata[3]}<br>vmin: %{customdata[4]}<br>vmax: %{customdata[5]}",
       "mode": "text",
-      "name": "",
       "showlegend": false,
       "text": "Motorneuron",
       "textfont": {
@@ -487,28 +381,8 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "Group 3",
-          "Sensory",
-          220.0,
-          "degree",
-          0,
-          3
-        ],
-        [
-          "Group 3",
-          "Sensory",
-          220.0,
-          "degree",
-          0,
-          3
-        ]
-      ],
       "hoverinfo": "skip",
-      "hovertemplate": "<b>Axis: %{customdata[1]}</b><br>axis_id: %{customdata[0]}<br>angle: %{customdata[2]}<br>sorting_variable: %{customdata[3]}<br>vmin: %{customdata[4]}<br>vmax: %{customdata[5]}",
       "mode": "text",
-      "name": "",
       "showlegend": false,
       "text": "Sensory",
       "textfont": {
@@ -525,28 +399,8 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "Group 3_repeat",
-          "Sensory",
-          260.0,
-          "degree",
-          0,
-          3
-        ],
-        [
-          "Group 3_repeat",
-          "Sensory",
-          260.0,
-          "degree",
-          0,
-          3
-        ]
-      ],
       "hoverinfo": "skip",
-      "hovertemplate": "<b>Axis: %{customdata[1]}</b><br>axis_id: %{customdata[0]}<br>angle: %{customdata[2]}<br>sorting_variable: %{customdata[3]}<br>vmin: %{customdata[4]}<br>vmax: %{customdata[5]}",
       "mode": "text",
-      "name": "",
       "showlegend": false,
       "text": "Sensory",
       "textfont": {
@@ -569,7 +423,6 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -588,7 +441,6 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -607,7 +459,6 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -626,7 +477,6 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -645,7 +495,6 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -664,7 +513,6 @@
         "width": 1.5
       },
       "mode": "lines",
-      "name": "",
       "showlegend": false,
       "type": "scatter",
       "x": [
@@ -677,38 +525,6 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "I5",
-          "Interneuron",
-          0
-        ],
-        [
-          "AVBL",
-          "Interneuron",
-          2
-        ],
-        [
-          "AVBR",
-          "Interneuron",
-          0
-        ],
-        [
-          "PVCL",
-          "Interneuron",
-          0
-        ],
-        [
-          "PVCR",
-          "Interneuron",
-          0
-        ],
-        [
-          "RMGR",
-          "Interneuron",
-          0
-        ]
-      ],
       "hovertemplate": "%{text}<extra></extra>",
       "marker": {
         "color": [
@@ -723,7 +539,6 @@
         "size": 8
       },
       "mode": "markers",
-      "name": "",
       "showlegend": false,
       "text": [
         "I5 (in: 0, out: 0)<br>AVBR (in: 0, out: 0)<br>PVCL (in: 0, out: 0)<br>PVCR (in: 0, out: 0)<br>RMGR (in: 0, out: 0)",
@@ -752,38 +567,6 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "I5",
-          "Interneuron",
-          0
-        ],
-        [
-          "AVBL",
-          "Interneuron",
-          2
-        ],
-        [
-          "AVBR",
-          "Interneuron",
-          0
-        ],
-        [
-          "PVCL",
-          "Interneuron",
-          0
-        ],
-        [
-          "PVCR",
-          "Interneuron",
-          0
-        ],
-        [
-          "RMGR",
-          "Interneuron",
-          0
-        ]
-      ],
       "hovertemplate": "%{text}<extra></extra>",
       "marker": {
         "color": [
@@ -798,7 +581,6 @@
         "size": 8
       },
       "mode": "markers",
-      "name": "",
       "showlegend": false,
       "text": [
         "I5 (in: 0, out: 0)<br>AVBR (in: 0, out: 0)<br>PVCL (in: 0, out: 0)<br>PVCR (in: 0, out: 0)<br>RMGR (in: 0, out: 0)",
@@ -827,63 +609,6 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "M1",
-          "Motorneuron",
-          0
-        ],
-        [
-          "M4",
-          "Motorneuron",
-          0
-        ],
-        [
-          "DB4",
-          "Motorneuron",
-          1
-        ],
-        [
-          "DD4",
-          "Motorneuron",
-          1
-        ],
-        [
-          "DD5",
-          "Motorneuron",
-          1
-        ],
-        [
-          "VA3",
-          "Motorneuron",
-          0
-        ],
-        [
-          "VA6",
-          "Motorneuron",
-          0
-        ],
-        [
-          "VB2",
-          "Motorneuron",
-          0
-        ],
-        [
-          "VB6",
-          "Motorneuron",
-          3
-        ],
-        [
-          "VD3",
-          "Motorneuron",
-          0
-        ],
-        [
-          "VD6",
-          "Motorneuron",
-          0
-        ]
-      ],
       "hovertemplate": "%{text}<extra></extra>",
       "marker": {
         "color": [
@@ -903,7 +628,6 @@
         "size": 8
       },
       "mode": "markers",
-      "name": "",
       "showlegend": false,
       "text": [
         "M1 (in: 0, out: 0)<br>M4 (in: 0, out: 0)<br>VA3 (in: 0, out: 0)<br>VA6 (in: 0, out: 0)<br>VB2 (in: 0, out: 0)<br>VD3 (in: 0, out: 0)<br>VD6 (in: 0, out: 0)",
@@ -947,63 +671,6 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "M1",
-          "Motorneuron",
-          0
-        ],
-        [
-          "M4",
-          "Motorneuron",
-          0
-        ],
-        [
-          "DB4",
-          "Motorneuron",
-          1
-        ],
-        [
-          "DD4",
-          "Motorneuron",
-          1
-        ],
-        [
-          "DD5",
-          "Motorneuron",
-          1
-        ],
-        [
-          "VA3",
-          "Motorneuron",
-          0
-        ],
-        [
-          "VA6",
-          "Motorneuron",
-          0
-        ],
-        [
-          "VB2",
-          "Motorneuron",
-          0
-        ],
-        [
-          "VB6",
-          "Motorneuron",
-          3
-        ],
-        [
-          "VD3",
-          "Motorneuron",
-          0
-        ],
-        [
-          "VD6",
-          "Motorneuron",
-          0
-        ]
-      ],
       "hovertemplate": "%{text}<extra></extra>",
       "marker": {
         "color": [
@@ -1023,7 +690,6 @@
         "size": 8
       },
       "mode": "markers",
-      "name": "",
       "showlegend": false,
       "text": [
         "M1 (in: 0, out: 0)<br>M4 (in: 0, out: 0)<br>VA3 (in: 0, out: 0)<br>VA6 (in: 0, out: 0)<br>VB2 (in: 0, out: 0)<br>VD3 (in: 0, out: 0)<br>VD6 (in: 0, out: 0)",
@@ -1067,28 +733,6 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "ASHR",
-          "Sensory",
-          1
-        ],
-        [
-          "ASKR",
-          "Sensory",
-          1
-        ],
-        [
-          "AWBR",
-          "Sensory",
-          0
-        ],
-        [
-          "DVA",
-          "Sensory",
-          0
-        ]
-      ],
       "hovertemplate": "%{text}<extra></extra>",
       "marker": {
         "color": [
@@ -1101,7 +745,6 @@
         "size": 8
       },
       "mode": "markers",
-      "name": "",
       "showlegend": false,
       "text": [
         "ASHR (in: 0, out: 1)<br>ASKR (in: 1, out: 0)",
@@ -1124,28 +767,6 @@
       ]
     },
     {
-      "customdata": [
-        [
-          "ASHR",
-          "Sensory",
-          1
-        ],
-        [
-          "ASKR",
-          "Sensory",
-          1
-        ],
-        [
-          "AWBR",
-          "Sensory",
-          0
-        ],
-        [
-          "DVA",
-          "Sensory",
-          0
-        ]
-      ],
       "hovertemplate": "%{text}<extra></extra>",
       "marker": {
         "color": [
@@ -1158,7 +779,6 @@
         "size": 8
       },
       "mode": "markers",
-      "name": "",
       "showlegend": false,
       "text": [
         "ASHR (in: 0, out: 1)<br>ASKR (in: 1, out: 0)",

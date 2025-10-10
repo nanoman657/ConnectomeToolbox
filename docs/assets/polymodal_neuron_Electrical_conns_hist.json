@@ -2,6 +2,78 @@
   "data": [
     {
       "marker": {
+        "color": "yellowgreen",
+        "size": 3,
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "OpenWormUnified",
+      "type": "scatter",
+      "x": [
+        "NSMR",
+        "MCR",
+        "MI",
+        "NSML",
+        "MCL"
+      ],
+      "y": [
+        6,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "marker": {
+        "color": "darkmagenta",
+        "size": 5,
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "Cook2019Herm",
+      "type": "scatter",
+      "x": [
+        "NSMR",
+        "MCR",
+        "MI",
+        "NSML",
+        "MCL"
+      ],
+      "y": [
+        6,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "marker": {
+        "color": "fuchsia",
+        "size": 3,
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "Cook2019Male",
+      "type": "scatter",
+      "x": [
+        "NSMR",
+        "MCR",
+        "MI",
+        "NSML",
+        "MCL"
+      ],
+      "y": [
+        6,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "marker": {
         "color": "red",
         "size": 3,
         "symbol": "circle"
@@ -10,18 +82,138 @@
       "name": "White_whole",
       "type": "scatter",
       "x": [
-        "MI",
-        "MCR",
-        "MCL",
         "NSMR",
-        "NSML"
+        "MCR",
+        "MI",
+        "NSML",
+        "MCL"
       ],
       "y": [
-        12,
-        5,
-        5,
         0,
-        0
+        5,
+        12,
+        0,
+        5
+      ]
+    },
+    {
+      "marker": {
+        "color": "darkorchid",
+        "size": 3,
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "Cook2020",
+      "type": "scatter",
+      "x": [
+        "NSMR",
+        "MCR",
+        "MI",
+        "NSML",
+        "MCL"
+      ],
+      "y": [
+        5,
+        3,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "marker": {
+        "color": "olive",
+        "size": 3,
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "WormNeuroAtlas",
+      "type": "scatter",
+      "x": [
+        "NSMR",
+        "MCR",
+        "MI",
+        "NSML",
+        "MCL"
+      ],
+      "y": [
+        0,
+        5,
+        12,
+        0,
+        5
+      ]
+    },
+    {
+      "marker": {
+        "color": "moccasin",
+        "size": 3,
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "SSData",
+      "type": "scatter",
+      "x": [
+        "NSMR",
+        "MCR",
+        "MI",
+        "NSML",
+        "MCL"
+      ],
+      "y": [
+        0,
+        2,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "marker": {
+        "color": "papayawhip",
+        "size": 3,
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "UpdSSData",
+      "type": "scatter",
+      "x": [
+        "NSMR",
+        "MCR",
+        "MI",
+        "NSML",
+        "MCL"
+      ],
+      "y": [
+        5,
+        4,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "marker": {
+        "color": "mistyrose",
+        "size": 3,
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "UpdSSData2",
+      "type": "scatter",
+      "x": [
+        "NSMR",
+        "MCR",
+        "MI",
+        "NSML",
+        "MCL"
+      ],
+      "y": [
+        5,
+        4,
+        2,
+        2,
+        1
       ]
     }
   ],
