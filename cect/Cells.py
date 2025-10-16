@@ -2520,9 +2520,12 @@ if __name__ == "__main__":
     from cect.Comparison import generate_comparison_page
 
     save_to_cache = True
+    # Performance optimization: load from cache when available to speed up execution
+    # Cache will be updated if data is newer
+    load_from_cache = True
 
     connectomes = generate_comparison_page(
-        quick, save_to_cache=save_to_cache, load_from_cache=(not save_to_cache)
+        quick, save_to_cache=save_to_cache, load_from_cache=load_from_cache
     )
 
     from cect.CellInfo import generate_cell_info_pages
