@@ -39,7 +39,7 @@ jobs:
     - name: Run quick test script
       if: ${{ matrix.runs-on != 'windows-latest' }}
       run: |
-        ./test.sh  # also runs pytest
+        ./test.sh -q  # also runs pytest, using quick mode to speed up CI
         
     - name: Final version info
       run: |
