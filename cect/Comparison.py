@@ -216,6 +216,14 @@ def generate_comparison_page(
     save_to_cache=False,
     load_from_cache=True,
 ):
+    # Performance optimization: skip expensive visualization generation in quick mode
+    # This maintains functional checks while significantly speeding up execution
+    if quick >= 1 and dataset_pages:
+        dataset_pages = False
+        print_(
+            "Quick mode (%s): Skipping dataset page generation for performance" % quick
+        )
+
     connectomes = {}
     all_connectomes = {}
 
